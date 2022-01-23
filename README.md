@@ -19,4 +19,4 @@ This guide will help you optimize your Minecraft server to reduce lag and improv
 # Bedrock Edition
 ## Bedrock
 
-## PocketMine
+## PocketMine-MP
