@@ -21,6 +21,9 @@ Some reasons that might increase lags are described in the following list with a
 ## MohistMC
 
 ## Modpacks
+It's hard to have a good performance using modpacks, mostly because modpacks usually have too many heavy mods. Some solutions are mentioned in the list below:
+* Check your list of mods: make sure that you don't have client-side mods on your server, since it's a client-side mod, you only need it on your Minecraft client, not on your server. You can also remove mods that you will not use, it's not really a good idea to have mods on your server that you will not even use.
+* Increase RAM: The modpack page usually provides what's the required amount of RAM for your server to run smoothly, increasing at least 1GB of RAM might help but it's not guaranteed.
 
 # Bedrock Edition
 ## Bedrock
