@@ -119,4 +119,4 @@ It's hard to have a good performance using modpacks, mostly because modpacks usu
 # Credits
 * Thanks to @Alex22-SV and @adriellwc for writing this guide. 
 * [[GUIDE] Server Optimization⚡](https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/)
-* [Lags - Aternos](https://support.exaroton.com/hc/en-us/articles/360019857018-Lags)
+* [Lags - Aternos](https://support.aternos.org/hc/en-us/articles/360027350792-Lags)
