@@ -19,7 +19,7 @@ Some reasons that might increase lags are described in the following list with a
 ## PaperMC
 Paper itself is a very good optimized server software but if you continue to have lags or low TPS you can follow the instructions listed below:
 ### Edit your server bukkit.yml file.
-1. Update spawn-limits.
+1. Update spawn-limits
 ```
 spawn-limits:
   monsters: 50
@@ -29,12 +29,12 @@ spawn-limits:
   water-underground-creature: 3
   ambient: 1
 ```
-2. Update chunk-gc.
+2. Update chunk-gc
 ```
 chunk-gc:
   period-in-ticks: 400
 ```
-3. Update ticks-per.
+3. Update ticks-per
 ```
 ticks-per:
   animal-spawns: 400
@@ -49,7 +49,7 @@ ticks-per:
 1. Update save-user-cache-on-stop-only
 ```
 settings:
-  save-user-cache-on-stop-only: false
+  save-user-cache-on-stop-only: true
 ```
 2. Update merge-radius
 ```
@@ -65,14 +65,14 @@ world-settings:
   default:
     item-despawn-rate: The-Value-You-Think-Would-Be-Better
 ```
-Note: this will update the time in ticks it takes for ground items to get removed.
-3. Update mob-spawn-range
+* Note: this will update the time in ticks it takes for ground items to get removed.
+4. Update mob-spawn-range
 ```
 world-settings:
   default:
     mob-spawn-range: 6
 ```
-4. Update max-tick-time
+5. Update max-tick-time
 ```
 world-settings:
   default:
@@ -80,13 +80,13 @@ world-settings:
       tile: 1000
       entity: 1000
 ```
-5. Update nerf-spawner-mobs
+6. Update nerf-spawner-mobs
 ```
 world-settings:
   default:
     nerf-spawner-mobs: true
 ```
-5. Update entity-activation-range
+7. Update entity-activation-range
 ```
 world-settings:
   default:
@@ -96,7 +96,7 @@ world-settings:
       raiders: 48
       misc: 8
 ```
-6. Update tick-inactive-villagers
+8. Update tick-inactive-villagers
 ```
 world-settings:
   default:
