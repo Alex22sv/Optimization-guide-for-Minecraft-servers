@@ -3,6 +3,7 @@ This guide will help you optimize your Minecraft server to reduce lag and improv
 
 # Java Edition
 ## Vanilla
+Consider switching to PaperMC, PaperMC has much better performance than Vanilla and also provides plugins support. PaperMC also patch some vanilla bugs and exploits. If you wish to stay with the bugs and exploits, switch to Fabric with some server sided performance mods. There's not much you can do to optimize a Vanilla server, one of the main reason is that Vanilla doesn't support plugins or mods, etc.
 
 ## Forge
 
