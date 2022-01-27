@@ -103,7 +103,34 @@ world-settings:
     entity-activation-range:
       tick-inactive-villagers: false
 ```
+### Edit your server paper.yml
+1. Update max-auto-save-chunks-per-tick
+```
+world-settings:
+  default: 
+    max-auto-save-chunks-per-tick: 6
+```
+2. Update disable-chest-cat-detection
+```
+world-settings:
+  default: 
+    game-mechanics:
+      disable-chest-cat-detection: true
+```
 
+3. Update optimize-explosions
+```
+world-settings:
+  default:
+    optimize-explosions: true
+```
+4. Update mob-spawner-tick-rate
+```
+world-settings:
+  default:
+    mob-spawner-tick-rate: 2
+```
+4. 
 ## MohistMC
 
 ## Modpacks
