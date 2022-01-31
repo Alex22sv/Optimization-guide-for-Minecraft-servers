@@ -6,6 +6,14 @@ This guide will help you optimize your Minecraft server to reduce lag and improv
 Consider switching to PaperMC, PaperMC has much better performance than Vanilla and also provides plugins support. PaperMC also patch some vanilla bugs and exploits. If you wish to stay with the bugs and exploits, switch to Fabric with some server sided performance mods. There's not much you can do to optimize a Vanilla server, one of the main reason is that Vanilla doesn't support plugins or mods, etc.
 
 ## Forge
+It’s not easy to optimize Forge, specially when using too many mods, heavy mods, etc. We really recommend that you use the mods that are really needed, removing unused mods will help a little bit with improving your server performance.
+Here we list some options that you can follow to optimize your Forge server:
+- Don’t use too many mods. If you really need to consider increasing your server RAM.
+- Avoid using heavy mods. Mods that add several new entities, blocks or mobs can really increase lag. 
+- Remove broken mods. If a mod does not work as expected is highly recommended to remove it, having broken mods on your server might break your world or increase lag.
+- Increase the RAM for your server. Not always the best option but should help.
+- Don’t change the value of the gamerule randomTickSpeed, always set it to 3.
+- Don’t have too many entities on your server. Consider using the [kill command](https://minecraft.fandom.com/wiki/Commands/kill) to remove some entities from your server.
 
 ## FabricMC
 One of the best ways to reduce lag is using performance mods. You can find a list of performance mods that are server-side only to improve your performance [here](https://github.com/comp500/fabric-serverside-mods/blob/main/README.md#performance).
