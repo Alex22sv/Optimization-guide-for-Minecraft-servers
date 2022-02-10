@@ -152,7 +152,7 @@ It's hard to have a good performance using modpacks, mostly because modpacks usu
 There's no way to optimize a Bedrock server because we cannot add modifications, plugins or update settings that may improve the server performance. Although, Bedrock servers don't really have a bad performance (most of the time).
 
 ## PocketMine-MP
-
+We suggest not using Pocketmine if you want to miss the updates of new Minecraft versions. Pocketmine is missing several features and all updates above 1.12 are not added to Pocketmine, also many gamerules are missing. Please do not use Pocketmine for a survival experience. The best way to get a better performance is using some optimization plugins (if they even exist).
 # Credits
 * Thanks to @Alex22-SV and @adriellwc for writing this guide. 
 * [[GUIDE] Server Optimization⚡](https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/)
