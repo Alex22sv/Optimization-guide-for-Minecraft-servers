@@ -141,7 +141,7 @@ world-settings:
 ```
 4. 
 ## MohistMC
-
+You can try and test the suggestions given for Forge and PaperMC servers since MohistMC is a combination of both server software.
 ## Modpacks
 It's hard to have a good performance using modpacks, mostly because modpacks usually have too many heavy mods. Some solutions are mentioned in the list below:
 * Check your list of mods: make sure that you don't have client-side mods on your server, since it's a client-side mod, you only need it on your Minecraft client, not on your server. You can also remove mods that you will not use, it's not really a good idea to have mods on your server that you will not even use.
