@@ -149,6 +149,7 @@ It's hard to have a good performance using modpacks, mostly because modpacks usu
 
 # Bedrock Edition
 ## Bedrock
+There's no way to optimize a Bedrock server because we cannot add modifications, plugins or update settings that may improve the server performance. Although, Bedrock servers don't really have a bad performance (most of the time).
 
 ## PocketMine-MP
 
