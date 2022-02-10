@@ -23,8 +23,6 @@ Some reasons that might increase lags are described in the following list with a
 * RAM too low: Increasing your server RAM will not always fix lag but might improve a little your server performance.
 * randomTickSpeed value too high: Increasing the gamerule randomTickSpeed value to a really high value can have a bad performance on your server. It is recommended to always set it to the default value, which is `3`.
 
-## Spigot
-
 ## PaperMC
 Paper itself is a very good optimized server software but if you continue to have lags or low TPS you can follow the instructions listed below:
 ### Edit your server bukkit.yml file.
@@ -139,7 +137,10 @@ world-settings:
   default:
     mob-spawner-tick-rate: 2
 ```
-4. 
+
+## SpigotMC
+You can try the suggestions given in the section ["PaperMC"](https://alex22-sv.tk/Optimization-guide-for-Minecraft-servers/#papermc). PaperMC is a fork of Spigot, therefore the server has the `bukkit.yml` and `spigot.yml` files.
+
 ## MohistMC
 You can try and test the suggestions given for Forge and PaperMC servers since MohistMC is a combination of both server software.
 ## Modpacks
