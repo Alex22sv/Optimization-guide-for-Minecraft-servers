@@ -155,6 +155,6 @@ There's no way to optimize a Bedrock server because we cannot add modifications,
 ## PocketMine-MP
 We suggest not using Pocketmine if you want to miss the updates of new Minecraft versions. Pocketmine is missing several features and all updates above 1.12 are not added to Pocketmine, also many gamerules are missing. Please do not use Pocketmine for a survival experience. The best way to get a better performance is using some optimization plugins (if they even exist).
 # Credits
-* Thanks to @Alex22-SV and @adriellwc for writing this guide. 
+* Thanks to [@Alex22-SV](https://github.com/Alex22-SV) and [@adriellwc](https://github.com/adriellwc) for writing this guide. 
 * [[GUIDE] Server Optimization⚡](https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/)
 * [Lags - Aternos](https://support.aternos.org/hc/en-us/articles/360027350792-Lags)
