@@ -137,6 +137,104 @@ world-settings:
   default:
     mob-spawner-tick-rate: 2
 ```
+5. Update disable-chest-cat-detection
+```
+world-settings:
+  default:
+    game-mechanics:
+      disable-chest-cat-detection: true
+```
+6. Update container-update-tick-rate
+```
+world-settings:
+  default:
+    container-update-tick-rate: 3
+```
+7. Update max-entity-collisions
+```
+world-settings:
+  default:
+    max-entity-collisions: 2
+```
+8. Update grass-spread-tick-rate
+```
+world-settings:
+  default:
+    grass-spread-tick-rate: 4
+```
+9. Update despawn-ranges
+```
+world-settings:
+  default:
+    despawn-ranges:
+      monster:
+        soft: 28
+        hard: 96
+      creature:
+        soft: 28
+        hard: 128
+      ambient:
+        soft: 28
+        hard: 96
+      axolotls:
+        soft: 28
+        hard: 96
+      underground_water_creature:
+        soft: 28
+        hard: 96
+      water_creature:
+        soft: 28
+        hard: 96
+      water_ambient:
+        soft: 28
+        hard: 64
+      misc:
+        soft: 28
+        hard: 96
+```
+10. Update disable-move-event
+```
+world-settings:
+  default:
+    hopper:
+      disable-move-event: true
+```
+11. Update non-player-arrow-despawn-rate
+```
+world-settings:
+  default:
+    non-player-arrow-despawn-rate: 60
+```
+12. Update creative-arrow-despawn-rate
+```
+world-settings:
+  default:
+    creative-arrow-despawn-rate: 60
+```
+13. Udpate prevent-moving-into-unloaded-chunks
+```
+world-settings:
+  default:
+    prevent-moving-into-unloaded-chunks: true
+```
+14. Update use-faster-eigencraft-redstone
+```
+world-settings:
+  default:
+    use-faster-eigencraft-redstone: true
+```
+15. Update armor-stands-tick
+```
+world-settings:
+  default:
+    armor-stands-tick: false
+```
+16. Update per-player-mob-spawns
+```
+world-settings:
+  default:
+    per-player-mob-spawns: true
+```
 
 ## SpigotMC
 You can try the suggestions given in the section ["PaperMC"](https://alex22-sv.tk/Optimization-guide-for-Minecraft-servers/#papermc). PaperMC is a fork of Spigot, therefore the server has the `bukkit.yml` and `spigot.yml` files.
